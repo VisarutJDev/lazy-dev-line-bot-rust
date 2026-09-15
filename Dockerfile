@@ -1,5 +1,5 @@
 # Builder stage
-FROM rust:1.91-bullseye as builder
+FROM rust:1.91-bookworm AS builder
 
 # Create a new empty shell project
 WORKDIR /usr/src/app
@@ -23,7 +23,7 @@ RUN --mount=type=cache,target=/usr/local/cargo/registry \
     cargo build --release
 
 # Final stage
-FROM rust:1.91-slim-bullseye
+FROM rust:1.91-slim-bookworm
 
 # Install OpenSSL - required for HTTPS requests
 RUN apt-get update \
