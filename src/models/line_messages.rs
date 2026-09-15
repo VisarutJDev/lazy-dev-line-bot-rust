@@ -14,7 +14,7 @@ pub fn get_portfolio_message() -> serde_json::Value {
             "aspectMode": "cover",
             "action": {
               "type": "uri",
-              "uri": "https://immense-explicitly-mullet.ngrok-free.app//",
+              "uri": "https://vjserver.tail389bb5.ts.net/",
             },
           },
           "body": {
@@ -23,7 +23,7 @@ pub fn get_portfolio_message() -> serde_json::Value {
             "spacing": "md",
             "action": {
               "type": "uri",
-              "uri": "https://immense-explicitly-mullet.ngrok-free.app//",
+              "uri": "https://vjserver.tail389bb5.ts.net/",
             },
             "contents": [
               {
@@ -67,7 +67,7 @@ pub fn get_portfolio_message() -> serde_json::Value {
                 "action": {
                   "type": "uri",
                   "label": "Open",
-                  "uri": "https://immense-explicitly-mullet.ngrok-free.app//",
+                  "uri": "https://vjserver.tail389bb5.ts.net/",
                 },
               },
             ],
@@ -134,7 +134,7 @@ pub fn get_resume_cv_message() -> serde_json::Value {
                         "action": {
                           "type": "uri",
                           "label": "action",
-                          "uri": "https://drive.google.com/file/d/1Jm2gsCdca4yPQj2YIkMtZ-E1OPbhEoi5/view?usp=sharing",
+                          "uri": "https://drive.google.com/file/d/1Z_lheqWwrJJlsLHxI4klRrIzPWrNkJ6v/view?usp=sharing",
                         },
                       },
                       {
